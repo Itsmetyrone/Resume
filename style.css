@@ -4,6 +4,15 @@ body{
     margin: 10px;
 }
 
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 3px solid black;
+    display: flex;
+    margin: 0 auto;
+}
+
 *{
     color: black;
 }
