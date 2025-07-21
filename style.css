@@ -29,6 +29,19 @@ body{
     
 }
 
+
+.about{
+    a{
+        text-decoration: none;
+    }
+}
+
+.skill{
+    a{
+        text-decoration: none;
+    }
+}
+
 input[type="text"] {
     color: gray;
     width: 90%;
