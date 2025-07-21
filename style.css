@@ -4,17 +4,29 @@ body{
     margin: 10px;
 }
 
+
+.header{
+    display: flex;
+    flex-direction: row;
+
 .profile {
+    margin-right: 10px;
     width: 150px;
     height: 150px;
-    border-radius: 10%;
-    border: 3px solid black;
-    display: flex;
-    margin: 0 auto;
+    border: black 1px solid;
+ 
+}
+
+.name{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 20px;
+}
 }
 
 *{
     color: black;
+    
 }
 
 input[type="text"] {
@@ -24,6 +36,7 @@ input[type="text"] {
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 4px;
+    margin: 10px;
 }
 
 input[type="button"] {
@@ -49,3 +62,4 @@ footer {
         color: gray;
     }
 }
+
